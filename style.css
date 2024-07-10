@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    width: 60%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.start {
+    border: none;
+    background-color: red;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    height: 210px;
+    width: 210px;
+    cursor: pointer;
+}
